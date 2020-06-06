@@ -1,0 +1,104 @@
+/* Rainbow header參考https://codepen.io/nohoid/pen/kIfto*/
+header .navbar-fixed-top {
+    margin-bottom: 0;
+    padding:10px 0;
+    background: linear-gradient(124deg, #000000eb, #11224deb, #2f1d44eb);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: rainbow 30s ease infinite;
+    -z-animation: rainbow 30s ease infinite;
+    -o-animation: rainbow 30s ease infinite;
+    animation: rainbow 30s ease infinite;
+    }
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+/* /Rainbow */
+
+#nav:hover{
+    color: #707070;
+}
+/* 新增按鈕效果 */
+#slider .content .btn-explore:hover{
+    background: #ffa0ae;
+    color: #5a5a5a;
+    transform: translateY(-5px)
+}
+#slider .content .btn-explore:active{
+    background: #4639ff;
+    color: #ffffff;
+}
+
+
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .size_of_img{
+  width:90px}
+
+.me{
+  margin: 5vw;
+}
+
+  /* ========= My Portfolio ========== */
+ /*--------------- #Preloader ---------------*/
+
+.cp-carousel{
+  height: 300px;;
+  position: relative;
+}
+
+/* 
+.pictureplace{
+  margin-top: 60px;
+  width: 450px;
+  height: 300px;
+  display: inline-block;
+}
+ */
+
+ .picture-text:hover{
+  position:absolute; 
+  left:0; top:0; 
+  color:#fff; 
+  font-weight:bold; 
+ }
